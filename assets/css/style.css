@@ -9,7 +9,7 @@
 }
 section{
     justify-content: center;
-     max-height: 100vh;
+    max-height: 100vh;
     justify-items: center;
     align-items: center;
     text-align: left;
@@ -161,10 +161,10 @@ color: #1E0E62;
     padding-bottom: 35px;
 }
 .card-parent{
-    padding: 40px;
+    padding: 25px;
 }
 .card-2-parent{
-    padding: 40px;
+    padding: 25px;
 }
 /*---------------card-2-------------*/
 .text{
@@ -184,12 +184,13 @@ text-align: left;
     padding: 10px;
     background-color: white;
     margin-bottom: 30px;
+    
 }
 .input-2{
     border: 2px solid #d5d5d5;
     border-radius: 30px;
     height: 45px;
-    width: 400px;
+    width: 350px;
     padding: 10px;
     background-color: white;
     margin-bottom: 30px;
@@ -197,11 +198,12 @@ text-align: left;
 .input-3{
     border: 2px solid #cececf;
     border-radius: 10px;
-    height:200px;
-    width: 520px;
+    height:170px;
+    width: 100%;
     padding: 10px;
     background-color:white;
     margin-bottom: 30px;
+    padding: 13px 111px 130px 19px;
 }
 .card-2{
     padding: 20px;
@@ -219,6 +221,7 @@ text-align: left;
     background-color: #25DAC5;
     left:420px;
     bottom: 60px;
+    color: white;
 
 
 }
