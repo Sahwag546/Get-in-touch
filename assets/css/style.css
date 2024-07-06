@@ -36,58 +36,11 @@ section{
 }
 
 /*-------------------column----------------------*/
-.col-1 {
-          width: 8.33%;
-          padding-left:12px;
-          padding-right:12px;
-    }
-    .col-2 {
-          width: 16.66%;
-          padding-left:12px;
-          padding-right:12px;
-    }
-    .col-3 {
-          width: 25%;
-          padding-left:12px;
-          padding-right:12px;
-    }
-   
-    .col-5 {
-          width: 41.66%;
-          padding-left:12px;
-          padding-right:12px;
-    }
-   
-    .col-7 {
-          width: 58.33%;
-          padding-left:12px;
-          padding-right:12px;
-    }
-    .col-8 {
-          width: 66.66%;
-          padding-left:12px;
-          padding-right:12px;
-    }
-    .col-9 {
-          width: 75%;
-          padding-left:12px;
-          padding-right:12px;
-    }
-    .col-10 {
-          width: 83.33%;
-          padding-left:12px;
-          padding-right:12px;
-    }
-    .col-11 {
-          width: 91.66%;
-          padding-left:12px;
-          padding-right:12px;
-    }
-    .col-12 {
-          width: 100%;
-          padding-left:12px;
-          padding-right:12px;
-    }
+.col-6{
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
     /*------------card-1 Details-----------*/
     h2{
 
@@ -150,7 +103,7 @@ color: #1E0E62;
 .line{
      background-color: #EBEAED;
      padding: 1px;
-     padding-left: 370px;
+     width: 370px;
    
 }
 .card-1{
@@ -180,13 +133,26 @@ text-align: left;
     border: 2px solid #d5d5d5;
     border-radius: 30px;
     height: 45px;
-    width: 520px;
+    width: 460px;
     padding: 10px;
     background-color: white;
     margin-bottom: 30px;
+    margin-top: 10px;
     
 }
+
 .input-2{
+    border: 2px solid #cececf;
+    border-radius: 10px;
+    height:170px;
+    width: 460px;
+    padding: 10px;
+    background-color:white;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 13px 111px 130px 19px;
+}
+.input-3{
     border: 2px solid #d5d5d5;
     border-radius: 30px;
     height: 45px;
@@ -194,20 +160,12 @@ text-align: left;
     padding: 10px;
     background-color: white;
     margin-bottom: 30px;
-}
-.input-3{
-    border: 2px solid #cececf;
-    border-radius: 10px;
-    height:170px;
-    width: 100%;
-    padding: 10px;
-    background-color:white;
-    margin-bottom: 30px;
-    padding: 13px 111px 130px 19px;
+    margin-top:10px;
+    display: flex;
 }
 .card-2{
     padding: 20px;
-    width: 560px;
+    width: 520px;
     background-color:#efeff0; 
     height: 510px;
     border-radius: 10px;
@@ -219,26 +177,42 @@ text-align: left;
     padding: 15px 30px;
     border-radius: 30px;
     background-color: #25DAC5;
-    left:420px;
+    left:370px;
     bottom: 60px;
     color: white;
 
 
 }
 
-
-@media(min-width:576px;) {
- .col-sm-6{
-    width: 50%;
-    padding-left:12px;
-    padding-right:12px;
- }
- }
- @media (min-width:768px;) {
-    .col-md-4 {
-          width: 33.33%;
-          padding-left:12px;
-          padding-right:12px;
+@media (max-width:992px) {
+    .col-6{
+        display: flex;
+        flex-direction: column;
+       width: 100%;
     }
-    margin-bottom:0;
- }
+    .line{
+        background-color: #EBEAED;
+       width: 370px;
+      
+   }
+   .card-2{
+    width: 450px;
+    
+   }
+   .input-1{
+    width: 400px;
+    display: flex;
+}
+.input-2{
+    width: 400px;
+}
+.input-3{
+ width: 280px;
+}
+.btn{
+    position: relative;
+    left: 300px;
+}
+
+    
+}
